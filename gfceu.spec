@@ -1,7 +1,7 @@
 Summary: GFCE Ultra Nintendo Emulator frontend 
 Name: gfceu
 Version: 0.6.0
-Release: 2%{?dist}
+Release: 3%{?dist}
 License: GPLv2+
 Group: Applications/Emulators
 URL: http://dietschnitzel.com/gfceu/
@@ -81,6 +81,9 @@ fi
 %doc ChangeLog COPYING TODO
 
 %changelog
+* Wed Jul 30 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0.6.0-3
+- rebuild for buildsys cflags issue
+
 * Fri Nov 02 2007 Andrea Musuruane <musuruan@gmail.com> 0.6.0-2
 - Changed license due to new guidelines
 - Removed %%{?dist} tag from changelog
