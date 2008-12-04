@@ -1,7 +1,7 @@
 Summary: GFCE Ultra Nintendo Emulator frontend 
 Name: gfceu
 Version: 0.6.0
-Release: 3%{?dist}
+Release: 4%{?dist}
 License: GPLv2+
 Group: Applications/Emulators
 URL: http://dietschnitzel.com/gfceu/
@@ -74,13 +74,16 @@ fi
 %files
 %defattr(-,root,root)
 %{_bindir}/gfceu
-%{_datadir}/%{name}/*
+%{_datadir}/%{name}
 %{_mandir}/man1/*
 %{_datadir}/applications/dribble-%{name}.desktop
 %{_datadir}/icons/hicolor/48x48/apps/%{name}.png
 %doc ChangeLog COPYING TODO
 
 %changelog
+* Thu Dec 04 2008 Andrea Musuruane <musuruan@gmail.com> 0.6.0-4
+- Fixed unowned directory (BZ #221)
+
 * Wed Jul 30 2008 Thorsten Leemhuis <fedora [AT] leemhuis [DOT] info - 0.6.0-3
 - rebuild for buildsys cflags issue
 
