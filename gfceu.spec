@@ -1,7 +1,7 @@
 Summary: GFCE Ultra Nintendo Emulator frontend 
 Name: gfceu
 Version: 0.6.0
-Release: 6%{?dist}
+Release: 7%{?dist}
 License: GPLv2+
 Group: Applications/Emulators
 URL: http://dietschnitzel.com/gfceu/
@@ -81,6 +81,9 @@ fi
 %doc ChangeLog COPYING TODO
 
 %changelog
+* Sun Mar 03 2013 Nicolas Chauvet <kwizart@gmail.com> - 0.6.0-7
+- Mass rebuilt for Fedora 19 Features
+
 * Wed Feb 08 2012 Nicolas Chauvet <kwizart@gmail.com> - 0.6.0-6
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_17_Mass_Rebuild
 
